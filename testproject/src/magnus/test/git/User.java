@@ -4,7 +4,13 @@ public class User
 {
 	private int userID;
 	private int companyID;
-	private String firstName, lastName;
+	private String firstName;
+	private String lastName;
+
+	public void delete()
+	{
+		System.out.println("DELETED!");
+	}
 
 	public int getUserID()
 	{
